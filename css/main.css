@@ -1,0 +1,225 @@
+* {box-sizing: border-box;}
+
+    body {
+        font-family: "Dosis", "Avenir";
+        margin: 0;
+        background-image: url(https://www.jlgrealestate.com/wp-content/uploads/2015/05/4.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    a {
+        color: #c7e5c9;
+        text-decoration: none;
+        text-wrap: wrap;
+    }
+
+    a:hover {
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+/*************
+HEADER
+*************/
+
+    header {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1em 3em;
+    }
+
+    header img {
+        width: 3.5em;
+    }
+
+    nav a {
+        color: #c7e5c9;
+    }
+
+    nav ul {
+        font-family: "Dosis";
+        font-size: 1.4em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+/*************
+MAIN
+*************/
+
+/**
+Booking
+**/
+
+    .box {
+        background-color: #c7e5c9;
+        border-radius: 2em;
+        width: 25em;
+        height: 20em;
+        display: flex;
+        margin: 5em 10em;
+        padding: 1em 2em;
+        font-size: 1.2em;
+        color: #ffffff;
+        font-style: italic;
+    }
+
+    .button {
+        border-radius: 1em;
+        color: grey;
+        margin: 1em;
+        width: 20em;
+        height: 3em;
+        font-family: "Dosis";
+    }
+
+    input {
+        border-radius: 0.5em;
+        font-family: "Dosis";
+        font-size: 0.8em;
+    }
+
+    .logo2 {
+        width: 3em;
+    }
+
+    form {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+}
+
+/**
+Over Frits
+**/
+
+    div.transbox {
+        margin: 4em 3em;
+        padding: 2em;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    div.transbox p {
+        margin: 1em;
+        color: #ffffff;
+        font-size: 1.2em;
+        font-family: "Avenir Next";
+    }
+
+    div.transbox h2 {
+        color: #c7e5c9;
+        font-size: 2em;
+        margin: 0.5em;
+    }
+
+/**
+hoover images
+**/
+
+    .container {
+        position: relative;
+        margin: 2em;
+        width: 100%;
+        max-width: 20em;
+        align-items: center;
+}
+
+    .image {
+        display: flex;
+        width: 100%;
+        height: auto;
+}
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: .8s ease;
+
+}
+
+    .container:hover .overlay {
+        opacity: 1;
+}
+
+    .text {
+        color: #ffffff;
+        font-size: 1.2em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+}
+
+/**
+Menu
+**/
+
+    .menu {
+        display: flex;
+        background-color: #ffffff;
+        width: 30em;
+        height 30em;
+}
+
+    .burgerimg{
+        float: right;
+        overflow: auto;
+        padding: 1em;
+        width: 100%;
+        height: auto;
+
+}
+
+/*************
+FOOTER
+*************/
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+    }
+
+    footer h3 {
+        margin-right: auto;
+}
+
+    .fa {
+        padding: 0.2em;
+        text-decoration: none;
+        margin: 0.1em;
+    }
+
+    .fa:hover {
+        color: #ffffff;
+    }
+
+
+/**
+Grid
+**/
+
+    @media (min-width: 40em) {
+        body main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+
