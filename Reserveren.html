@@ -20,7 +20,7 @@
                 </li>
                 <li><a href="menu.html">Menu</a>
                     <li><a href="foto's.html">Foto's</a></li>
-                    <li><a href="#">Reserveren</a></li>
+                    <li><a href="reserveren.html">Reserveren</a></li>
             </ul>
         </nav>
     </header>
@@ -28,14 +28,22 @@
         <article class="box">
             <form class="form" action="#"> <img class="logo2" src="images/vector.png" alt="Frits">
                 <label for="people">People</label>
-                <input id="people" type="people" name="email" placeholder="2 persons">
+                <input id="people" placeholder="2 persons">
                 <label for="date">Date</label>
-                <input id="date" type="date" placeholder="Date">
+                <input id="date" placeholder="Date">
                 <label for="date">Time</label>
-                <input id="time" type="time" placeholder="Time">
+                <input id="time" placeholder="Time">
                 <label for="email">Email</label>
                 <input id="email" type="email" placeholder="example@gmail.com">
-                <input type="button" class="button" value="Book your table"> </form>
+                <button class="button" onclick="move()">Book your table</button>
+                <div id="myProgress">
+                <div id="myBar"></div>
+                </div>
+            </form>
         </article>
     </main>
+    <script src="button.js"></script>
 </body>
+<!--<button class="button"></button>
+<i class="fa fa-spinner fa-spin"></i>Reserving your table
+</button>-->

@@ -3,11 +3,12 @@
     body {
         font-family: "Dosis", "Avenir";
         margin: 0;
-        background-image: url(https://www.jlgrealestate.com/wp-content/uploads/2015/05/4.jpg);
+        /*background-image: url(https://www.jlgrealestate.com/wp-content/uploads/2015/05/4.jpg);*/
+        background-image: url(https://i.pinimg.com/originals/85/9c/fe/859cfe33862e6c1ee376c2db24b8d478.jpg);
         background-size: cover;
         height: 100vh;
         background-attachment: fixed;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
     }
 
     a {
@@ -128,6 +129,7 @@ hoover images
         width: 100%;
         max-width: 20em;
         align-items: center;
+
 }
 
     .image {
@@ -173,12 +175,10 @@ Menu
     .menu {
         display: flex;
         background-color: #ffffff;
-        width: 30em;
-        height 30em;
+        display: flex;
 }
 
     .burgerimg{
-        float: right;
         overflow: auto;
         padding: 1em;
         width: 100%;
@@ -221,5 +221,17 @@ Grid
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
+}
 
 
+#myProgress {
+  width: 20em;
+  background-color: #ffffff;
+}
+
+#myBar {
+font-size: 1em;
+  width: 0em;
+  height: 1em;
+  background-color: orange;
+}
