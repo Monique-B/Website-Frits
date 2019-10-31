@@ -1,11 +1,12 @@
-/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
+/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true */
+
 var i = 0;
 function move() {
-  if (i == 0) {
+  if (i === 0) {
     i = 1;
     var elem = document.getElementById("myBar");
     var width = 10;
-    var id = setInterval(frame, 10);
+    var id = setInterval (frame, 10);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
@@ -18,3 +19,4 @@ function move() {
     }
   }
 }
+
