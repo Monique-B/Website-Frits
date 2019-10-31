@@ -1,5 +1,3 @@
-/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true */
-
 var i = 0;
 function move() {
   if (i === 0) {
