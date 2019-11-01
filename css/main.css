@@ -14,7 +14,6 @@
     a {
         color: #c7e5c9;
         text-decoration: none;
-        text-wrap: wrap;
     }
 
     a:hover {
@@ -195,6 +194,7 @@ Detail
         background-color: rgba(255,250,250,0.7);
         margin: 3em;
         padding: 2em;
+        align-items: center;
     }
 
 /*************
@@ -260,3 +260,5 @@ Java
           height: 1.5em;
           background-color: orange;
     }
+
+/* voorbeelden van W3Schools
