@@ -6,7 +6,6 @@
             font-family: "Dosis", "Avenir";
             margin: 0;
             background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
-            /*url(https://i.pinimg.com/originals/85/9c/fe/859cfe33862e6c1ee376c2db24b8d478.jpg);*/
             background-size: cover;
             height: 100vh;
             background-attachment: fixed;
@@ -183,16 +182,18 @@ Menu
             width: 100%;
             height: auto;
         }
-        /**
+
+/**
 Detail
 **/
-
         .detail {
             background-color: rgba(255, 250, 250, 0.7);
-            margin: 3em;
+            margin: auto;
             padding: 2em;
+            max-width: 40em;
         }
-        /*************
+
+/*************
 FOOTER
 *************/
 
@@ -216,14 +217,21 @@ FOOTER
         .fa:hover {
             color: #ffffff;
         }
-        /**
+
+/**
 Grid
 **/
 
         @media (min-width: 50em) {
-            body main {
+            body .home__grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 60em) {
+            body .home__grid {
+                grid-template-columns: 1fr 1fr 1fr;
             }
         }
 
@@ -236,11 +244,45 @@ Grid
             }
         }
 
-        @media (min-width: 30em) {
-            body main article {
+        @media (min-width: 50em) {
+            body .menu__grid {
+                display: grid;
                 grid-template-columns: 1fr 1fr;
             }
         }
-        /**
+
+        @media (min-width: 60em) {
+            body .menu__grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 40em) {
+            body .foto__grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (min-width: 60em) {
+            body .foto__grid {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+
+/**
 Java
 **/
+
+        body > aside {
+            transition: .3s ease all;
+            height: 0;
+            overflow: hidden;
+            background: #424242;
+            color: #f1f1f1;
+        }
+
+        body > aside.is-shown {
+            display: block;
+            height: 8em;
+        }
