@@ -21,12 +21,21 @@
                 <li><a href="menu.html">Menu</a>
                     <li><a href="foto's.html">Foto's</a></li>
                     <li><a href="reserveren.html">Reserveren</a></li>
-                    <li><a href="#">Zoeken</a></li>
+                    <li>
+                        <button class="search">Zoek uw restaurant</button>
+                    </li>
             </ul>
         </nav>
     </header>
+    <aside>
+        <form>
+            <h3>Vind een restaurant in de buurt</h3>
+            <input class="address" type="text" name="postal code" placeholder="Zoek op postcode of plaatsnaam" required>
+            <button class="search">Zoeken</button>
+        </form>
+    </aside>
     <main>
-       <h1>Bekijk onze burgers</h1>
+        <h1>Bekijk onze burgers</h1>
         <section class="foto__grid">
             <section class="container"><img src="images/burgerfrits3.jpg" alt="Burger" class="image">
                 <a href="detail.html">
@@ -56,5 +65,7 @@
             </section>
         </section>
     </main>
-    <script src="nieuw.js"></script>
 </body>
+<script src="nieuw.js"></script>
+
+</html>

@@ -187,7 +187,7 @@ Menu
 Detail
 **/
         .detail {
-            background-color: rgba(255, 250, 250, 0.7);
+            background-color: rgba(255, 250, 250, 0.8);
             margin: auto;
             padding: 2em;
             max-width: 40em;
@@ -278,7 +278,7 @@ Java
             transition: .3s ease all;
             height: 0;
             overflow: hidden;
-            background: #424242;
+            background-color: rgba(0, 0, 0, 0.6);
             color: #f1f1f1;
         }
 
@@ -286,3 +286,24 @@ Java
             display: block;
             height: 8em;
         }
+
+        .search {
+            background-color: #c7e5c9;
+            border-radius: 0.6em;
+            height: 2em;
+            font-size: 0.7em;
+            color: white;
+        }
+
+        .search:hover {
+            background-color: white;
+            color: #c7e5c9;
+        }
+
+        .address {
+            width: 15em;
+            height: 2em;
+            padding: 0.5em;
+        }
+
+

@@ -21,12 +21,21 @@
                 <li><a href="#">Menu</a>
                     <li><a href="foto's.html">Foto's</a></li>
                     <li><a href="reserveren.html">Reserveren</a></li>
-                    <li><a href="#">Zoeken</a></li>
+                    <li>
+                        <button class="search">Zoek uw restaurant</button>
+                    </li>
             </ul>
         </nav>
     </header>
+    <aside>
+        <form>
+            <h3>Vind een restaurant in de buurt</h3>
+            <input class="address" type="text" name="postal code" placeholder="Zoek op postcode of plaatsnaam" required>
+            <button class="search">Zoeken</button>
+        </form>
+    </aside>
     <main>
-       <h1>Ons burger menu</h1>
+        <h1>Ons burger menu</h1>
         <section class="menu__grid">
             <article class="menu">
                 <h3>Vegetable Burger</h3>
@@ -42,5 +51,7 @@
                 <h3>€ 10,50</h3> <img src="images/burgerfrits3.jpg" alt="Burger" class=burgerimg> </article>
         </section>
     </main>
-    <script src="nieuw.js"></script>
 </body>
+<script src="nieuw.js"></script>
+
+</html>

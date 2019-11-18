@@ -21,19 +21,30 @@
                 <li><a href="menu.html">Menu</a>
                     <li><a href="foto's.html">Foto's</a></li>
                     <li><a href="reserveren.html">Reserveren</a>
-                    <li><a href="#">Zoeken</a></li>
+                        <li>
+                            <button class="search">Zoek uw restaurant</button>
+                        </li>
             </ul>
         </nav>
     </header>
+    <aside>
+        <form>
+            <h3>Vind een restaurant in de buurt</h3>
+            <input class="address" type="text" name="postal code" placeholder="Zoek op postcode of plaatsnaam" required>
+            <button class="search">Zoeken</button>
+        </form>
+    </aside>
     <main>
-       <h1>Reserveren</h1>
+        <h1>Reserveren</h1>
         <form class="form" action="#"> Naam:
-           <input type="text" name="username" required> Personen:
+            <input type="text" name="username" required> Personen:
             <input type="text" name="persons" required> Wanneer:
             <input type="text" name="date" required> Tijd:
             <input type="text" name="time" required> Email:
             <input type="email" name="email" required>
-            <input class="button" type="submit"> </form>
+            <input class="button" type="button" type="submit"> </form>
     </main>
-    <script src="nieuw.js"></script>
 </body>
+<script src="nieuw.js"></script>
+
+</html>
