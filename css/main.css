@@ -182,18 +182,17 @@ Menu
             width: 100%;
             height: auto;
         }
-
-/**
+        /**
 Detail
 **/
+
         .detail {
             background-color: rgba(255, 250, 250, 0.8);
             margin: auto;
             padding: 2em;
             max-width: 40em;
         }
-
-/*************
+        /*************
 FOOTER
 *************/
 
@@ -217,8 +216,7 @@ FOOTER
         .fa:hover {
             color: #ffffff;
         }
-
-/**
+        /**
 Grid
 **/
 
@@ -269,8 +267,7 @@ Grid
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
-
-/**
+        /**
 Java
 **/
 
@@ -305,5 +302,3 @@ Java
             height: 2em;
             padding: 0.5em;
         }
-
-
