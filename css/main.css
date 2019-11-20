@@ -221,14 +221,14 @@ Grid
 **/
 
         @media (min-width: 50em) {
-            body .home__grid {
+            body .home_grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
             }
         }
 
         @media (min-width: 60em) {
-            body .home__grid {
+            body .home_grid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
@@ -243,27 +243,27 @@ Grid
         }
 
         @media (min-width: 50em) {
-            body .menu__grid {
+            body .menu_grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
             }
         }
 
         @media (min-width: 60em) {
-            body .menu__grid {
+            body .menu_grid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
 
         @media (min-width: 40em) {
-            body .foto__grid {
+            body .foto_grid {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
             }
         }
 
         @media (min-width: 60em) {
-            body .foto__grid {
+            body .foto_grid {
                 grid-template-columns: 1fr 1fr 1fr;
             }
         }
