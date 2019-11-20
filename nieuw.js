@@ -6,3 +6,5 @@ const aside = document.querySelector("body > aside");
 button.addEventListener("click", function(){
     aside.classList.toggle('is-shown');
 });
+
+/* Bijles Maikel Sleebos
