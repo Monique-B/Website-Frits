@@ -80,6 +80,7 @@ Booking
             width: 20em;
             font-family: "Dosis";
             font-size: 0.9em;
+               cursor:pointer
         }
 
         input {
